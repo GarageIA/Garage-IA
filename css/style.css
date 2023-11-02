@@ -1,0 +1,83 @@
+:root{
+    --color_1:rgb(229, 192, 27);
+    --fuente_1:Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*----------------------HEADER---------------------*/
+header{
+    background-color: var(--color_1);
+    height: 60px;
+    display: grid;
+    grid-template-columns: max-content 1fr max-content max-content;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+header .logo img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+header .logo h1{
+    color: white;
+    font-family: var(--fuente_1);
+}
+
+header nav{
+    grid-column-start: 3;
+}
+header nav ul{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5px;
+}
+header nav ul li{
+    height: max-content;
+    list-style-type: none;
+}
+header nav ul a{
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--fuente_1);
+    text-align: center;
+}
+header nav ul a:hover{
+    background-color: rgb(212, 176, 35);
+}
+
+header .icono_perfil{
+    grid-column-start: 4;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+header .icono_perfil img{
+    width: 35px;
+    height: 35px;
+}
+/*----------------------MAIN------------------------------*/
+main{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: var(--fuente_1);
+}
+/*---------------------FOOTER-----------------------------*/
