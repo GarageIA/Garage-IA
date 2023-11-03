@@ -82,3 +82,44 @@ main{
     font-family: var(--fuente_1);
 }
 /*---------------------FOOTER-----------------------------*/
+footer{
+    background-color: rgb(219, 219, 219);
+    padding: 15px;
+    margin-top: 20px;
+}
+footer .ft-1{
+    background-color: aqua;
+}
+footer .ft-1 .footer-logo{
+    width: max-content;
+    float: left;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+footer .ft-1 .footer-logo small{
+    font-family: var(--fuente_1);
+}
+footer .ft-1 .footer-logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+footer .ft-2{
+    padding: 10px;
+    width: max-content;
+    margin: auto;
+}
+
+
+.footer-redes{
+    display: flex;
+    float: right;
+    gap: 5px;
+}
+.footer-redes img{
+    opacity: .2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
