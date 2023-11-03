@@ -4,8 +4,14 @@
 }
 .buscar_estacionamiento .buscar_ubicacion{
     display: grid;
-    grid-template-columns:1fr max-content max-content;
+    grid-template-columns:1fr max-content;
     gap: 5px;
+}
+@media (max-width: 500px) {
+    .buscar_estacionamiento .buscar_ubicacion{
+        grid-template-columns:none;
+        gap: 5px;
+    }
 }
 
 .buscar_estacionamiento .buscar_ubicacion h2{
