@@ -12,7 +12,7 @@
     font-family: var(--fuente_1);
 }
 .buscar_estacionamiento .buscar_ubicacion input{
-    padding: 10px;
+    padding: 0px 10px;
     border: 1px solid rgb(142, 142, 142);
     min-width: 0px;
     max-height: 50px;
