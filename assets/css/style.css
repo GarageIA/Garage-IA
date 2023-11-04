@@ -11,69 +11,119 @@
 header{
     background-color: var(--color_1);
     height: 60px;
-    display: grid;
-    grid-template-columns: max-content 1fr max-content max-content;
-    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 5;
-    overflow: hidden;
 }
 
-
-header .logo {
+header .logo_count{
+    width: max-content;
+    padding: 10px;
     display: flex;
+    gap: 5px;
     align-items: center;
-    gap: 10px;
-    padding: 5px;
+    justify-content: center;
+    float: left;
 }
-header .logo img{
-    width: 35px;
-    height: 35px;
+header .logo_img{
+    display: block;
+    height: 40px;
+    display: block;
     border-radius: 50%;
 }
-header .logo h1{
+header .logo_nombre{
     color: white;
+    display: block;
+    font-size: 20px;
     font-family: var(--fuente_1);
 }
 
 header nav{
-    grid-column-start: 3;
-}
-header nav ul{
-    width: 100%;
+    float: right;
     height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 5px;
-}
-header nav ul li{
-    height: max-content;
-    list-style-type: none;
-}
-header nav ul a{
-    display: block;
-    border-radius: 5px;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    font-family: var(--fuente_1);
-    text-align: center;
-}
-header nav ul a:hover{
-    background-color: rgb(212, 176, 35);
+    width: max-content;
 }
 
-header .icono_perfil{
-    grid-column-start: 4;
-    display: flex;
+header nav ul{
+    width: max-content;
+    height: 100%;
     align-items: center;
-    padding: 5px;
+    justify-content: center;
+    display: flex;
 }
-header .icono_perfil img{
-    width: 35px;
-    height: 35px;
+header nav li{
+    list-style: none;
+    margin: 5px;
+}
+header nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: var(--fuente_1);
+    border-radius: 5px;
+}
+header nav li a:hover{
+    background-color: rgb(201, 169, 24);
+}
+
+header .icono_perfil_count{
+    width: max-content;
+    float: right;
+    padding: 10px;
+}
+header .icono_perfil_img{
+    display: block;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+}
+
+#check{
+    display: none;
+}
+.check_label{
+
+    display: none;
+}
+@media (max-width:600px) {
+    header nav{
+        background-color: rgb(63, 63, 63);
+        width: 100%;
+        height: max-content;
+    }
+    header nav ul{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+    header nav li{
+        padding: 10px 2px;
+    }
+    header nav li a:hover{
+        background-color: black;
+    }
+
+    #check:checked ~ nav{
+        display: none;
+    }
+    .check_label{
+        width: max-content;
+        height: 100%;
+        float:right;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        display: flex;
+    }
+    .check_label *{
+        color: white;
+        font-family: var(--fuente_1);
+        font-size: 25px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
 }
 /*----------------------MAIN------------------------------*/
 main{
