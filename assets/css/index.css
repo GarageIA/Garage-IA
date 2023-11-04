@@ -1,0 +1,73 @@
+:root{
+    --color_1:rgb(229, 192, 27);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../img/fondo.png");background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: block;
+    width: 90%;
+    max-width: 350px;
+    
+}
+.main .logo{
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.main .logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.main .logo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.cont{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.cont form{
+    display: grid;
+    gap: 15px;
+}
+.cont form input{
+    padding: 10px;
+    outline: none;
+}
+.cont form .input--send{
+    background-color: var(--color_1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cont form label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cont .enlace{
+    text-align: center;
+    padding: 15px;
+}
+.cont .enlace a{
+    text-decoration: none;
+    color:var(--color_1);
+}
