@@ -7,7 +7,7 @@
     padding: 0px;
 }
 body{
-    background-image: url("../img/fondo.png");background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../assets/img/fondo.png");background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
