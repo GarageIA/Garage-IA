@@ -91,6 +91,21 @@ header .icono_perfil_img{
         width: 100%;
         height: max-content;
     }
+
+    header .icono_perfil_count{
+        float: left;
+    }
+
+    header .logo_count{
+        float: left;
+        width: calc(100% - 110px);
+        margin: 5px;
+    }
+    header .logo_img{
+        display: none;
+    }
+
+
     header nav ul{
         width: 100%;
         height: max-content;
