@@ -98,7 +98,7 @@ header .icono_perfil_img{
 
     header .logo_count{
         float: left;
-        width: calc(100% - 110px);
+        width: calc(100% - 140px);
         margin: 5px;
     }
     header .logo_img{
