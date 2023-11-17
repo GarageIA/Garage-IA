@@ -7,6 +7,11 @@
     margin: 0px;
     padding: 0px;
 }
+.page{
+    display: grid;
+    min-height: 100vh;
+    grid-auto-rows: auto 1fr auto;
+}
 /*----------------------HEADER---------------------*/
 header{
     background-color: var(--color_1);
