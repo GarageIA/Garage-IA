@@ -6,6 +6,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .page{
     display: grid;
@@ -149,8 +150,9 @@ header .icono_perfil_img{
 main{
     width: 100%;
     max-width: 1000px;
-    margin: auto;
+    margin: 5px auto;
     font-family: var(--fuente_1);
+    height: max-content;
 }
 /*---------------------FOOTER-----------------------------*/
 footer{
