@@ -91,7 +91,7 @@ header .icono_perfil_img{
 
     display: none;
 }
-@media (max-width:600px) {
+@media (max-width:750px) {
     header nav{
         background-color: rgb(63, 63, 63);
         width: 100%;
