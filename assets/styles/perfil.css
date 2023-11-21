@@ -1,1 +1,62 @@
 
+body{
+    background-color: rgb(165, 93, 42);
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+.cont_perfil{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.usuario{
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 5px;
+}
+.usuario img{
+    width: 100px;
+}
+
+.cont_descripcion h2{
+    color: white;
+}
+.cont_descripcion p{
+    background-color: rgb(221, 221, 117);
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.info{
+    display: grid;
+    gap: 10px;
+}
+.info p{
+    margin-left: 50px;
+}
+
+
+
+
+.cont_fecha_registro{
+    background-color: var(--color_1);
+    color: white;
+    padding: 20px;
+}
+.cont_fecha_registro p{
+    text-align: center;
+}
