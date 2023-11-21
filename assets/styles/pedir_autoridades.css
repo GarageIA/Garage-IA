@@ -1,1 +1,24 @@
 
+main{
+    padding: 10px;
+}
+form{
+    display: grid;
+    gap: 10px;
+}
+input{
+    width: 80px;
+    padding: 10px;
+    border: none;
+    background-color: var(--color_1);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ textarea, select{
+    padding: 5px;
+    outline: none;
+}
+div>p{
+    margin-bottom: 8px;
+}
