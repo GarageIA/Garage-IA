@@ -1,1 +1,29 @@
 
+.list_resul{
+    display: block;
+}
+.list_resul_titulo{
+    padding: 10px;
+}
+.resul-cont{
+    display: grid;
+    border-top: 1px solid rgb(149, 149, 149);
+    margin-top: 5px;
+    padding: 10px;
+
+    grid-template-columns: 1fr max-content;
+}
+.resul-cont-btn{
+    position: relative;
+    width: 80px;
+    display: flex;
+    align-items: center;
+}
+.resul-cont-btn img{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    width: 35px;
+    height: 35xpx;
+}
