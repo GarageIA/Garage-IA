@@ -1,1 +1,31 @@
 
+main{
+    padding: 10px;
+}
+tr{
+    padding: 10px;
+}
+td{
+    text-align: center;
+    padding: 5px;
+    color: rgb(95, 95, 95);
+}
+table p {
+    display: block;
+    margin: auto;
+    width: max-content;
+    padding: 5px;
+    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.v_selc, table p:hover {
+    background-color: var(--color_1);
+}
+.mapa{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.mapa img{
+    width: 100%;
+}
