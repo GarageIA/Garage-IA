@@ -196,3 +196,8 @@ footer .ft-2{
     height: 30px;
     border-radius: 50%;
 }
+
+
+.mapa-count{
+    display:none;
+}
